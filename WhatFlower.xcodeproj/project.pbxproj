@@ -13,7 +13,6 @@
 		8DB0282C22BD59EF00E5FD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB0282A22BD59EF00E5FD95 /* Main.storyboard */; };
 		8DB0282E22BD59F100E5FD95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB0282D22BD59F100E5FD95 /* Assets.xcassets */; };
 		8DB0283122BD59F100E5FD95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB0282F22BD59F100E5FD95 /* LaunchScreen.storyboard */; };
-		8DD95103237203D200F275C2 /* flowerclassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8DD95102237203D200F275C2 /* flowerclassification.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		8DB0282D22BD59F100E5FD95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB0283022BD59F100E5FD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DB0283222BD59F100E5FD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DD95102237203D200F275C2 /* flowerclassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = flowerclassification.mlmodel; sourceTree = "<group>"; };
 		8EA222E068A7EC70D650C265 /* Pods-WhatFlower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatFlower.release.xcconfig"; path = "Target Support Files/Pods-WhatFlower/Pods-WhatFlower.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +67,6 @@
 				8DB0282D22BD59F100E5FD95 /* Assets.xcassets */,
 				8DB0282F22BD59F100E5FD95 /* LaunchScreen.storyboard */,
 				8DB0283222BD59F100E5FD95 /* Info.plist */,
-				8DD95102237203D200F275C2 /* flowerclassification.mlmodel */,
 			);
 			path = WhatFlower;
 			sourceTree = "<group>";
@@ -217,7 +214,6 @@
 			files = (
 				8DB0282922BD59EF00E5FD95 /* ViewController.swift in Sources */,
 				8DB0282722BD59EF00E5FD95 /* AppDelegate.swift in Sources */,
-				8DD95103237203D200F275C2 /* flowerclassification.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
