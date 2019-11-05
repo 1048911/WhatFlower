@@ -14,7 +14,9 @@ import SwiftyJSON
 import SDWebImage
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-
+   
+    @IBOutlet weak var navbar: UINavigationItem!
+    
     @IBOutlet weak var selectedImage: UIImageView!
     
     @IBOutlet weak var flowerInfoLabel: UILabel!
@@ -28,9 +30,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navbar.title = "What Flower?"
         imagePicker.delegate = self
         imagePicker.sourceType = .savedPhotosAlbum
         imagePicker.allowsEditing = false
+        flowerInfoLabel.textAlignment = .center
+        flowerInfoLabel.text = "Click the camera button to select a photo to anazlyze."
+        
+        
         
     }
     
